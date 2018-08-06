@@ -1,0 +1,40 @@
+/* Responsive images */
+img {
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 790px) {
+	
+	.three {
+		width: 100%;
+	}
+
+	.three img {
+		display: block;
+	}
+
+}
+
+
+@media only screen and (max-width: 560px) {
+	html {
+		font-size: 15px;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	nav {
+		background-color: transparent;
+	}
+
+	.hamburger {
+		display: block;
+		color: #fff;
+		position: absolute;
+		top: 10px;
+		left: 4px;
+	}
+
+}

@@ -1,0 +1,155 @@
+/* Universal */
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 15px;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+	color: #44545E;
+}
+
+/* nav */
+
+.container {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+.gallery {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+	width: 100%;
+	margin: 64px 0 0;
+    padding-bottom: 0;
+}
+
+.about {
+    justify-content: center;
+}
+
+/* Header */
+
+header {
+	padding-top: 30px;
+    background-size: cover;
+    background-image: url('../images/home_header_bg.jpg');
+	background-attachment: fixed;
+	height: 100vh;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 600;
+	letter-spacing: 0.75px;
+	padding: 3px 60px;
+	display: inline-block;
+	border-bottom: none;
+	text-transform: uppercase;
+}
+
+.hamburger {
+	display: none;
+}
+
+
+.bluecontainer {
+	background-color: #CFF2F6;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 600;
+	letter-spacing: 1.1618px;
+	padding: 3px 60px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+button { outline: 0;
+	border: 2px solid #44545E;
+	color: #44545E;
+	padding: 9px;
+	padding: 9px;
+	background-color: transparent;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.2px;
+	transition: all .3s ease-in-out;
+}
+
+
+/* Type */
+
+p {
+	font-family: 'Lato', sans-serif;
+	text-transform: none;
+    line-height: 1.1618;
+    font-weight: lighter;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 35px;
+	letter-spacing: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #7B98AA;
+	font-weight: 600;
+	transition: all .3s ease-in-out;
+}
+
+a:hover {
+	color: #44545E;
+}
+
+
+/* List */
+
+ul a {
+	text-transform: none;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	display: block;
+	text-align: left;
+}
+
